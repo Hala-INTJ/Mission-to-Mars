@@ -6,26 +6,22 @@ In this project, Splinter and BeautifulSoup are used to scrape four different we
 - https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html: to retreive the URL for the featured image.
 - http://space-facts.com/mars/: to retrieve a table on Mars facts.
 - https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars: to retrieve full-resolution images of Mars hemispheres and the titles of those images.
-
 ## Deliverable 1
 The code for scraping the above websites is in [Mission_to_Mars_Challenge.ipynb](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Mission_to_Mars_Challenge.ipynb). The scraped data is stored in the **mars_app** Mongo database in the **mars** collection.
 
 A screenshot of the list of dictionary items:
-![]()
-
+![](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Resources/List%20of%20dictionaries.png)
 ## Deliverable 2
 Flask - Python web framework - provides a button to initiate scraping data and displays the results stored in Mongo. The Flask code is in [app.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/app.py). Flask uses the scraping code in [scraping.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/scraping.py) and renders the webpage using the html template in [index.html](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/templates/index.html).
 
 This is a screenshot of the webpage after scraping the data:
-![]()
-
-
+![](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Resources/webpage_scraped_data.png)
 ## Deliverable 3
 The webpage is mobile-responsive. Here are screenshots displaying the webpage on multiple devices:
 
-| Web Browser | iPad | iPhone 6/7/8 |
-| --- | --- | --- |
-| ![]() | ![]() | ![]() |
+| iPad | iPhone 6/7/8 |
+| --- | --- |
+| ![]() | ![]() |
 
 This table summarizes the Bootstrap 3 components which were added to style the webpage. These changes can be found in [index_styled.html]().
 
@@ -38,5 +34,5 @@ This table summarizes the Bootstrap 3 components which were added to style the w
 | "Mars Hemispheres" Four Across | ```<div class="col-md-3">```| Divides the row into four equal width columns |
 
  This is a screenshot of the webpage after applying these styling changes:
- ![]()
+ ![](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Resources/webpage_index_styled.png)
 
