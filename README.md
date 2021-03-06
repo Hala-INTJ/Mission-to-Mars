@@ -23,11 +23,14 @@ For Deliverable 3,
 
 - This tables  following Bootstrap 3 components to style the webpage, this can be found in [index_style.html](). Here are the changes introduced:
 
-| element | html added |  | |
+| Element | Addition | Addition Desciption  | html Altered |
 | :---: | :---: | :---: | :---: |
-| Scrape New Data button | ```class="btn-block"```| makes the button span the full width of the prent elemnt | ```<p><a class="btn btn-primary btn-block btn-lg" href="/scrape" role="button">Scrape New Data</a></p>```| 
-| ![]() | ![]() |
+| "Scrape New Data" button | ```class="btn-block"```| makes the button span the full width of the prent elemnt | ```<p><a class="btn btn-primary btn-block btn-lg" href="/scrape" role="button">Scrape New Data</a></p>```| 
+| "Mars Facts" Header | ```<strong>Mars Facts</strong>"```| bolds the text in the header | ```<div class="row" id="mars-facts"> <h4><strong>Mars Facts</strong></h4{{ mars.facts | safe }}</div>```|
+| "Mars Facts" Header | ```<strong>Mars Facts</strong>"```| bolds the text in the header | ```<div class="row" id="mars-facts"> <h4><strong>Mars Facts</strong></h4{{ mars.facts | safe }}</div>```|
 
+
+the entire html can be found in 
 
 
 
