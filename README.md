@@ -27,13 +27,13 @@ The webpage is mobile-responsive. Here are screenshots displaying the webpage on
 | --- | --- | --- |
 | ![]() | ![]() | ![]() |
 
-This table summarizes Bootstrap 3 components that were added to style the webpage, these changes can be found in [index_styled.html](). Here are the changes introduced:
+This table summarizes the Bootstrap 3 components which were added to style the webpage. These changes can be found in [index_styled.html]().
 
 | Element | Addition | Addition Desciption |
 | :---: | :---: | :---: |
 | "Scrape New Data" Button | ```class="btn-block"```| makes the button span the full width of the parent element | 
 | "Mars Facts" Header | ```<strong>Mars Facts</strong>```| bolds the text in the header | 
-| "Mars Facts" Table | ```return df.to_html(classes="table table-striped")```| converts dataframe into HTML format and adds bootstrap CSS class to add zebra-stripes to the table, this is in scraping.py| 
+| "Mars Facts" Table | ```return df.to_html(classes="table table-striped")```| converts dataframe into HTML format and adds bootstrap CSS class to add zebra-stripes to the table, this is in [scraping.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/scraping.py)| 
 | "Mars Hemispheres" Images | ```class="img-thumbnail img-circle" width="304" height="236"```| "img-thumbnail" shapes the image to a thumbnail and "img-circle" class shapes the image to a circle |
 | "Mars Hemispheres" Four Across | ```<div class="col-md-3">```| Divides the row into four equal width columns |
 
