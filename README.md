@@ -5,7 +5,7 @@ In this project, Splinter and BeautifulSoup are used to scrape four different we
 - 'https://mars.nasa.gov/news/': to retrieve news title and new paragraph.
 - 'https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html': to retreive the URl for the featured image.
 - 'http://space-facts.com/mars/': to retrieve a table on Mars facts.
-- 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars: to retrieve full-resolution images of Mars’s hemispheres and the titles of those images.
+- 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars: to retrieve full-resolution images of Mars hemispheres and the titles of those images.
 
 The code could be found in [Mission_to_Mars_Challenge]().
 
@@ -25,12 +25,13 @@ For Deliverable 3,
 
 | Element | Addition | Addition Desciption  | html Altered |
 | :---: | :---: | :---: | :---: |
-| "Scrape New Data" button | ```class="btn-block"```| makes the button span the full width of the prent elemnt | ```<p><a class="btn btn-primary btn-block btn-lg" href="/scrape" role="button">Scrape New Data</a></p>```| 
+| "Scrape New Data" Button | ```class="btn-block"```| makes the button span the full width of the prent elemnt | ```<p><a class="btn btn-primary btn-block btn-lg" href="/scrape" role="button">Scrape New Data</a></p>```| 
 | "Mars Facts" Header | ```<strong>Mars Facts</strong>```| bolds the text in the header | ```<div class="row" id="mars-facts">
             <h4><strong>Mars Facts</strong></h4>
             {{ mars.facts | safe }}
           </div>```|
-| "Mars Facts" Header | ```<strong>Mars Facts</strong>"```| bolds the text in the header | ```<div class="row" id="mars-facts"> <h4><strong>Mars Facts</strong></h4{{ mars.facts | safe }}</div>```|
+| "Mars Facts" Table | ```return df.to_html(classes="table table-striped")```| converts dataframe into HTML format, add bootstrap class to add zebra-stripes to the table| In scarping.py, under ```def mars_facts()```|
+| "Mars Hemispheres" Images | ```class="img-thumbnail img-circle" width="304" height="236"```| "img-thumbnail " shapes the image to a thumbnail and "img-circle" class shapes the image to a circle | ``` <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" class="img-thumbnail img-circle" width="304" height="236" alt="...">``` |
 
 
 the entire html can be found in 
