@@ -14,7 +14,7 @@ A screenshot of the list of dictionary items:
 ![]()
 
 ## Deliverable 2
-Flask - Python web framework - provides a button to initiate scraping data and displays the results stored in Mongo. This Flask code is in [app.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/app.py). Flask uses the scraping code in [scraping.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/scraping.py) and renders the webpage using the html template in [index.html](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/templates/index.html).
+Flask - Python web framework - provides a button to initiate scraping data and displays the results stored in Mongo. The Flask code is in [app.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/app.py). Flask uses the scraping code in [scraping.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/scraping.py) and renders the webpage using the html template in [index.html](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/templates/index.html).
 
 This is a screenshot of the webpage after scraping the data:
 ![]()
