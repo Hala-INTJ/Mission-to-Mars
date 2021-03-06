@@ -27,8 +27,9 @@ For Deliverable 3,
 | :---: | :---: | :---: | :---: |
 | "Scrape New Data" button | ```class="btn-block"```| makes the button span the full width of the prent elemnt | ```<p><a class="btn btn-primary btn-block btn-lg" href="/scrape" role="button">Scrape New Data</a></p>```| 
 | "Mars Facts" Header | ```<strong>Mars Facts</strong>```| bolds the text in the header | ```<div class="row" id="mars-facts">
- <h4><strong>Mars Facts</strong></h4{{ mars.facts | safe 
- div>```|
+            <h4><strong>Mars Facts</strong></h4>
+            {{ mars.facts | safe }}
+          </div>```|
 | "Mars Facts" Header | ```<strong>Mars Facts</strong>"```| bolds the text in the header | ```<div class="row" id="mars-facts"> <h4><strong>Mars Facts</strong></h4{{ mars.facts | safe }}</div>```|
 
 
