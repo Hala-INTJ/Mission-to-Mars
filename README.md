@@ -21,7 +21,7 @@ The webpage is mobile-responsive. Here are screenshots displaying the webpage on
 
 | iPad | iPhone 6/7/8 |
 | --- | --- |
-| ![]() | ![]() |
+| ![](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Resources/iPad.png) | ![](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Resources/iPhone7.png) |
 
 This table summarizes the Bootstrap 3 components which were added to style the webpage. These changes can be found in [index_styled.html]().
 
