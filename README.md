@@ -30,7 +30,7 @@ The webpage is mobile-responsive. Here are screenshots displaying the webpage on
 This table summarizes Bootstrap 3 components that were added to style the webpage, these changes can be found in [index_styled.html](). Here are the changes introduced:
 
 | Element | Addition | Addition Desciption |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: |
 | "Scrape New Data" Button | ```class="btn-block"```| makes the button span the full width of the parent element | 
 | "Mars Facts" Header | ```<strong>Mars Facts</strong>```| bolds the text in the header | 
 | "Mars Facts" Table | ```return df.to_html(classes="table table-striped")```| converts dataframe into HTML format and adds bootstrap CSS class to add zebra-stripes to the table, this is in scraping.py| 
