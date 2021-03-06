@@ -7,17 +7,20 @@ In this project, Splinter and BeautifulSoup are used to scrape four different we
 - http://space-facts.com/mars/: to retrieve a table on Mars facts.
 - https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars: to retrieve full-resolution images of Mars hemispheres and the titles of those images.
 
+## Deliverable 1:
 The code for scraping the above websites is in [Mission_to_Mars_Challenge.ipynb](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Mission_to_Mars_Challenge.ipynb).The scraped data is stored in mars_app Mongo database in mars collection.
 
+A screenshot of the list of dictionary items:
+![]()
+
+## Deliverable 2:
 Flask - Python web farmework - provides a button to initiate scraping data and displays the results stored in Mongo. This Flask code is in [app.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/app.py). Flask uses the scraping code in [scraping.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/scraping.py) and renders the webpage using the html template in [index.html](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/templates/index.html).
 
-In Deliverable 1, the list of dictionary items:
-![]() 
-
-In Deliverable 2,
+This is a screenshot of the webpage after scraping the data:
+ ![]()
 
 
-For Deliverable 3,
+## Deliverable 3,
 - The webpage is mobile-responsive. Here are screenshots displaying the webpage on multiple devices:
 | Web Browser | iPad | iPhone 6/7/8 |
 | --- | --- | --- |
@@ -33,5 +36,6 @@ For Deliverable 3,
 | "Mars Hemispheres" Images | ```class="img-thumbnail img-circle" width="304" height="236"```| "img-thumbnail" shapes the image to a thumbnail and "img-circle" class shapes the image to a circle |
 | "Mars Hemispheres" Four Across | ```<div class="col-md-3">```| Divides the row into four equal width columns |
 
- 
+ This is a screenshot of the webpage after applying these styling changes:
+ ![]()
 
