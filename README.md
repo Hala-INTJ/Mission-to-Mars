@@ -27,8 +27,8 @@ For Deliverable 3,
 | :---: | :---: | :---: | :---: |
 | "Scrape New Data" Button | ```class="btn-block"```| makes the button span the full width of the parent element | ```<p><a class="btn btn-primary btn-block btn-lg" href="/scrape" role="button">Scrape New Data</a></p>```| 
 | "Mars Facts" Header | ```<strong>Mars Facts</strong>```| bolds the text in the header | ```<h4><strong>Mars Facts</strong></h4>``` |
-| "Mars Facts" Table | ```return df.to_html(classes="table table-striped")```| converts dataframe into HTML format and adds bootstrap class to add zebra-stripes to the table| In scarping.py, under ```def mars_facts()```|
-| "Mars Hemispheres" Images | ```class="img-thumbnail img-circle" width="304" height="236"```| "img-thumbnail" shapes the image to a thumbnail and "img-circle" class shapes the image to a circle | ``` <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" class="img-thumbnail img-circle" width="304" height="236" alt="...">``` |
+| "Mars Facts" Table | ```return df.to_html(classes="table table-striped")```| converts dataframe into HTML format and adds bootstrap class to add zebra-stripes to the table| In scarping.py, replace the return statement in ```def mars_facts()```|
+| "Mars Hemispheres" Images | ```class="img-thumbnail img-circle" width="304" height="236"```| "img-thumbnail" shapes the image to a thumbnail and "img-circle" class shapes the image to a circle | ```<img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" class="img-thumbnail img-circle" width="304" height="236" alt="...">``` |
 
 
 the entire html can be found in 
