@@ -15,7 +15,7 @@ A screenshot of the list of dictionary items:
 ## Deliverable 2
 Flask - Python web framework - provides a button to initiate scraping data and displays the results stored in Mongo. The Flask code is in [app.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/app.py). Flask uses the scraping code in [scraping.py](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/scraping.py) and renders the webpage using the html template in [index.html](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/templates/index.html).
 
-This is a screenshot of the webpage after scraping the data:
+A screenshot of the webpage after scraping the data:
 
 ![](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Resources/webpage_scraped_data.png)
 ## Deliverable 3
@@ -35,6 +35,6 @@ This table summarizes the Bootstrap 3 components which were added to style the w
 | "Mars Hemispheres" Images | ```class="img-thumbnail img-circle" width="304" height="236"```| "img-thumbnail" shapes the image to a thumbnail and "img-circle" class shapes the image to a circle |
 | "Mars Hemispheres" Four Across | ```<div class="col-md-3">```| Divides the row into four equal width columns |
 
- This is a screenshot of the webpage after applying these styling changes:
+ A screenshot of the webpage after applying these styling changes:
 
  ![](https://github.com/Hala-INTJ/Mission-to-Mars/blob/main/Resources/webpage_index_styled.png)
